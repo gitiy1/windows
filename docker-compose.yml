@@ -8,8 +8,9 @@ services:
       RAM_SIZE: "8.5G"
       CPU_CORES: "3"
       DISK_SIZE: "256G"
-    devices:
-      - /dev/kvm
+      KVM: "N"
+    # devices:
+    #   - /dev/kvm
     cap_add:
       - NET_ADMIN
     ports:
