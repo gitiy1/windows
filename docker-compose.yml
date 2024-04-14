@@ -6,7 +6,7 @@ services:
     environment:
       VERSION: "win10"
       RAM_SIZE: "8.5G"
-      CPU_CORES: "3"
+      CPU_CORES: "5"
       DISK_SIZE: "256G"
       KVM: "N"
     # devices:
